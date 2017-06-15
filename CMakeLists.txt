@@ -3,5 +3,5 @@ project(PAT)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c A+BFormat.c All.h)
+set(SOURCE_FILES main.c A+BFormat.c All.h "A+BforPolynomials .c" Emergency.c)
 add_executable(PAT ${SOURCE_FILES})
